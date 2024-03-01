@@ -1,0 +1,336 @@
+/* -------------- variables -------------- */
+:root {
+    --shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0);
+}
+
+/* -------------- general setting -------------- */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bitter', serif;
+    width: 100vw;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.4em;
+    color: #000;
+    background: #f3f2f1;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background: linear-gradient(90deg, #f3f2f1 0%, #fff 100%);
+}
+
+h1,
+h2 {
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bitter", serif;
+    font-weight: 400;
+}
+
+p,
+span {
+    display: block;
+    margin: 0 0 10px 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+b {
+    color: #000;
+}
+
+.hr {
+    height: 10px;
+    border-bottom: solid 1px #000;
+    margin: 20px 0;
+}
+
+a:hover {
+    filter: brightness(0.8);
+}
+
+
+/* -------------- hero -------------- */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow-y: visible;
+}
+
+.hero_name {
+    position: absolute;
+    left: 27vw;
+    bottom: calc(20vh + 50px);
+    height: 500px;
+}
+
+.hero_image {
+    position: relative;
+    background: url("../asset/hero_background.jpg");
+    background-size: cover;
+    background-position: center;
+    left: 6vw;
+    top: 6vw;
+    height: calc(100vh - 12vw);
+    width: 25vw;
+    border-radius: 30vw;
+    border: solid 1px #000;
+}
+
+.hero_title {
+    position: absolute;
+    left: 20vw;
+    bottom: 16vh;
+    font-size: 86px;
+    line-height: 92px;
+    font-weight: 500;
+}
+
+.hero_title > span {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.hero_background {
+    position: absolute;
+    left: 2vw;
+    top: 2vw;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #FFD2A9 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.hero_background_2 {
+    position: absolute;
+    right: 0;
+    bottom: -50vw;
+    width: 50vw;
+    height: 100vw;
+    background: radial-gradient(50% 50% at 100% 50%, #FFD2A9 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+/* -------------- intro -------------- */
+
+.intro {
+    position: relative;
+    padding: 0 20vw 100px 20vw;
+}
+
+.intro > div {
+    display: flex;
+    column-gap: 30px;
+}
+
+.intro .hr {
+    margin-right: -20vw;
+    margin-bottom: 40px;
+}
+
+.intro p {
+    max-width: 45vw;
+}
+
+
+/* -------------- tldr -------------- */
+
+.tldr {
+    position: relative;
+    padding: 80px 20vw 100px 20vw;
+    background: linear-gradient(90deg, #FFD2A9 0%, #f3f2f1 50%);
+    display: flex;
+    border-top: solid 1px #000;
+    border-bottom: solid 1px #000;
+    overflow: hidden;
+}
+
+.tldr > p {
+    width: 100px;
+    color: #DBA693;
+}
+
+.tldr p {
+    margin-top: 20px;
+}
+
+.tldr h3 {
+    margin: 0;
+}
+
+.tldr label,
+.tldr label a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #DBA693;
+}
+
+/* -------------- logistics -------------- */
+
+.logistics {
+    position: relative;
+    padding: 80px 20vw 100px 20vw;
+}
+
+.logistics_background {
+    position: absolute;
+    left: 25vw;
+    bottom: 0;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 100%;
+    background: radial-gradient(50% 50% at 50% 50%, #FFD2A9 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: -1;
+}
+
+.qa_content {
+    position: relative;
+}
+
+.qa_content > p {
+    position: relative;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.qa_content > span {
+    position: relative;
+    display: none;
+    padding: 0 0 20px 20px;
+}
+
+.qa_content .qa_collapsed {
+    border-top: solid 1px #bbb;
+}
+
+.qa_content .qa_expanded {
+    border-top: solid 1px #000;
+}
+
+.qa_content .qa_collapsed:hover::after {
+    content: "+";
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: auto;
+    color: #000;
+}
+
+.qa_content .qa_expanded:hover::after {
+    content: "-";
+    font-size: 18px;
+    position: absolute;
+    right: 0;
+    top: auto;
+    bottom: auto;
+    color: #000;
+}
+
+.qa_content p:hover {
+    cursor: pointer;
+}
+
+/* -------------- footer -------------- */
+
+.footer {
+    position: relative;
+    padding: 0 10vw 100px 10vw;
+}
+
+.footer > p {
+    border-top: solid 1px #000;
+    padding-top: 30px;
+}
+
+/* -------------- mobile -------------- */
+
+
+@media only screen and (max-width: 790px) {
+
+
+    p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .hero {
+        min-height: 60vw;
+        height: 70vh;
+    }
+
+    .hero_name {
+        left: 20vw;
+        width: 70vw;
+        top: 0;
+        bottom: 0;
+    }
+
+    .hero_image {
+        top: 3vw;
+        left: 3vw;
+        height: calc(70vh - 12vw);
+        width: calc(20vw + 100px);
+    }
+
+    .hero_title {
+        left: 15vw;
+        font-size: calc(3vw + 36px);
+        line-height: calc(3vw + 36px);
+    }
+
+    .hero_title > span {
+        font-size: calc(3vw + 10px);
+        line-height: calc(3vw + 36px);
+    }
+
+    .intro,
+    .tldr,
+    .logistics {
+        padding: 30px 10vw 30px 10vw;
+    }
+
+    .intro h3 {
+        margin-top: -20px;
+    }
+
+    .intro p {
+        font-size: 14px;
+        line-height: 18px;
+        max-width: 100vw;
+    }
+
+    .intro .hr {
+        margin: 10px -10vw 20px 0;
+    }
+
+    .tldr > p {
+        width: 60px;
+    }
+
+
+
+}
