@@ -62,7 +62,7 @@ b {
 }
 
 a:hover {
-    filter: brightness(0.8);
+    filter: brightness(1.2);
 }
 
 
@@ -153,7 +153,7 @@ a:hover {
 
 .tldr {
     position: relative;
-    padding: 80px 20vw 100px 20vw;
+    padding: 40px 20vw 60px 20vw;
     background: linear-gradient(90deg, #FFD2A9 0%, #f3f2f1 50%);
     display: flex;
     border-top: solid 1px #000;
@@ -161,16 +161,33 @@ a:hover {
     overflow: hidden;
 }
 
-.tldr > p {
-    width: 100px;
+.guest_info {
+    position: relative;
+    padding: 40px 20vw 60px 20vw;
+    display: flex;
+    border-bottom: solid 1px #000;
+    overflow: hidden;
+    display: none;
+}
+
+.tldr > div,
+.guest_info > div {
+    width: calc(100% - 100px);
+}
+
+.tldr > p,
+.guest_info > p {
+    width: 100px !important;
     color: #DBA693;
 }
 
-.tldr p {
+.tldr p,
+.guest_info p {
     margin-top: 20px;
 }
 
-.tldr h3 {
+.tldr h3,
+.guest_info h3 {
     margin: 0;
 }
 
@@ -179,6 +196,31 @@ a:hover {
     font-size: 14px;
     font-weight: 400;
     color: #DBA693;
+}
+
+
+.guest_info label,
+.guest_info label a {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    color: #DBA693;
+    line-height: 16px;
+}
+
+.guest_info .name {
+    display: inline-block;
+    margin: 0 15px 0 -5px;
+    padding: 5px 20px;
+    border-radius: 100px;
+    border: solid 1px #000;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+.guest_info .name:hover {
+    background: #FFD2A9;
 }
 
 /* -------------- logistics -------------- */
@@ -309,8 +351,9 @@ a:hover {
 
     .intro,
     .tldr,
-    .logistics {
-        padding: 30px 10vw 30px 10vw;
+    .logistics,
+    .guest_info {
+        padding: 30px 10vw 40px 10vw;
     }
 
     .intro h3 {
@@ -327,7 +370,8 @@ a:hover {
         margin: 10px -10vw 20px 0;
     }
 
-    .tldr > p {
+    .tldr > p,
+    .guest_info > p {
         width: 60px;
     }
 

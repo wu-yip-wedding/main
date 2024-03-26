@@ -1,0 +1,68 @@
+id,full_name,plus_one,meal,table
+charles,Charles Wu,Lucy Yip,Cod,0
+lucy,Lucy Yip,Charles Wu,Ratatouille,0
+jacquelinekwan,Jacqueline Kwan,"Kong Yu Wu, Wincy Wu, Joyce Wu, Jay Wu",Cod,1
+jay,Jay Wu,"Kong Yu Wu, Jacqueline Kwan, Wincy Wu, Joyce Wu",Kids,1
+joyce,Joyce Wu,"Kong Yu Wu, Jacqueline Kwan, Wincy Wu, Jay Wu",Ratatouille,1
+kongyuwu,Kong Yu Wu,"Jacqueline Kwan, Wincy Wu, Joyce Wu, Jay Wu",NY Strip,1
+kwokchor,Kwok Chor Wu,"Tung Mui Cheung, Ngai Chit Wu",Cod,1
+ngaichit,Ngai Chit Wu,,NY Strip,1
+tungmui,Tung Mui Cheung,"Kwok Chor Wu, Ngai Chit Wu",Ratatouille,1
+wincy,Wincy Wu,"Kong Yu Wu, Jacqueline Kwan, Joyce Wu, Jay Wu",NY Strip,1
+haohan,HaohanZhang,"ShaohuaiZhang, Menglin Dong",Kids,2
+iris,Iris Yip,,NY Strip,2
+tung,Lap Tung,"Waiwan Yip, Iris Yip",Cod,2
+menglin,Menglin Dong,"ShaohuaiZhang, HaohanZhang",Cod,2
+ruyi,Ruyi Yan,,NY Strip,2
+shaohuai,ShaohuaiZhang,"Menglin Dong, HaohanZhang",NY Strip,2
+yip,Waiwan Yip,"Lap Tung, Iris Yip",NY Strip,2
+clay,Clay Lin,,Ratatouille,3
+cy,Cy Zhang,Vita Wang,NY Strip,3
+fango,Fango Lin,Luna Zhang,Cod,3
+luna,Luna Zhang,Fango Lin,NY Strip,3
+vita,Vita Wang,Cy Zhang,Cod,3
+yutong,Yutong Shi,,Cod,3
+chenlu,Chenlu Wang,Ziyu Chen,NY Strip,4
+felice,Felice Mancini,Peitong Chen,NY Strip,4
+meichun,Meichun Cai,,Cod,4
+veronica,Peitong Chen,Felice Mancini,Ratatouille,4
+jeffrey,Youngmin Cho,Zhaodi Wang,NY Strip,4
+zhaodi,Zhaodi Wang,Youngmin Cho,Cod,4
+ziyu,Ziyu Chen,Chenlu Wang,NY Strip,4
+adeline,Adeline Wang,"Yiqi Zhao, Gavin Wang, Aurora Wang",Kids,5
+aurora,Aurora Wang,"Yiqi Zhao, Gavin Wang, Adeline Wang, Aurora Wang",Kids,5
+frank,Frank Chen,Jacqueline Zhu,NY Strip,5
+gavin,Gavin Wang,"Yiqi Zhao, Gavin Wang, Adeline Wang, Aurora Wang",NY Strip,5
+jacqueline,Jacqueline Zhu,Frank Chen,Cod,5
+yiqi,Yiqi Zhao,"Gavin Wang, Adeline Wang",NY Strip,5
+dakuo,Dakuo Wang,Yisi Sang,Cod,6
+iyang,I-Yang Huang,Tiange Wang,NY Strip,6
+jazz,Jazzmynn Hong,Jingfei Hu,NY Strip,6
+jingfei,Jingfei Hu,Jazzmynn Hong,NY Strip,6
+shiyi,Shiyi Peng,,NY Strip,6
+tiange,Tiange Wang,I-Yang Huang,Cod,6
+wanwan,Wanwan Fei,Zishi Liu,NY Strip,6
+yisi,Yisi Sang,Dakuo Wang,Cod,6
+zishi,Zishi Liu,Wanwan Fei,NY Strip,6
+asterios,Asterios Tsiourvas,Kat Labrou,NY Strip,7
+daniel,Daniel Tsai,,Cod,7
+demircan,Demircan Tas,Serin Alpokay Tas ,NY Strip,7
+dimitrios,Dimitrios Chatzinikolis,Sara Tang,NY Strip,7
+kat,Kat Labrou,Asterios Tsiourvas,NY Strip,7
+serin,Serin Alpokay Tas ,Demircan Tas,NY Strip,7
+takehiko,Takehiko Nagakura,Tomoko Okamura-Nagakura,NY Strip,7
+tomoko,Tomoko Okamura-Nagakura,Takehiko Nagakura,NY Strip,7
+wenzhe,Wenzhe Peng,Yu Zheng,NY Strip,7
+yu,Yu Zheng,Wenzhe Peng,Cod,7
+claire,Claire Li,,Ratatouille,8
+esther,Esther Tu,Esther Tu,Cod,8
+jessie,Jessie Qian,,NY Strip,8
+sara,Sara Tang,Dimitrios Chatzinikolis,NY Strip,8
+victor,Victor Cao,Esther Tu,NY Strip,8
+kylecroft,Kyle Croft,Zhile Xie,NY Strip,9
+nicole,Nicole Pun,Simon Mo,NY Strip,9
+caosheng,Sheng Cao,Yi Xu,Cod,9
+simon,Simon Mo,Nicole Pun,NY Strip,9
+xuyi,Yi Xu,Sheng Cao,NY Strip,9
+zhekun,Zhekun Xiong,,NY Strip,9
+xiezhile,Zhile Xie,Kyle Croft,Cod,9
