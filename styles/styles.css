@@ -214,6 +214,10 @@ a:hover {
     display: none;
 }
 
+#guest {
+    background: #f3f2f1;
+}
+
 .tldr > div,
 .guest_info > div {
     width: calc(100% - 100px);
@@ -395,6 +399,7 @@ a:hover {
         height: 25vh;
         width: 10vh;
         margin-bottom: -25vh;
+        z-index: 999;
     }
     
     .hero_image_4 {
