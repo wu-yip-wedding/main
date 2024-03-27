@@ -640,8 +640,8 @@ const data = {
         "table_number": "7",
         "group": "Asterios Tsiourvas, Daniel Tsai, Demircan Tas, Dimitrios Chatzinikolis, Kat Labrou, Serin Alpokay Tas , Takehiko Nagakura, Tomoko Okamura-Nagakura, Wenzhe Peng, Yu Zheng"
     },
-    "daniel": {
-        "name": "Daniel Tsai",
+    "tsai": {
+        "name": "Dr. Daniel Tsai",
         "plus": "none",
         "meal": "Miso-baked Cod",
         "table_number": "7",
@@ -696,7 +696,7 @@ const data = {
         "group": "Asterios Tsiourvas, Daniel Tsai, Demircan Tas, Dimitrios Chatzinikolis, Kat Labrou, Serin Alpokay Tas , Takehiko Nagakura, Tomoko Okamura-Nagakura, Wenzhe Peng, Yu Zheng"
     },
     "takehiko": {
-        "name": "Takehiko Nagakura",
+        "name": "Professor Takehiko Nagakura",
         "plus": [
             [
                 "tomoko",
@@ -708,7 +708,7 @@ const data = {
         "group": "Asterios Tsiourvas, Daniel Tsai, Demircan Tas, Dimitrios Chatzinikolis, Kat Labrou, Serin Alpokay Tas , Takehiko Nagakura, Tomoko Okamura-Nagakura, Wenzhe Peng, Yu Zheng"
     },
     "tomoko": {
-        "name": "Tomoko Okamura-Nagakura",
+        "name": "Mrs. Tomoko Okamura-Nagakura",
         "plus": [
             [
                 "takehiko",

@@ -91,7 +91,51 @@ a:hover {
     height: calc(100vh - 12vw);
     width: 25vw;
     border-radius: 30vw;
+    border: solid 1px #b2b2b2;
+}
+
+.hero_image_2 {
+    position: relative;
+    background: url("../asset/hero_background_2.jpg");
+    background-size: cover;
+    background-position: center;
+    left: 44vw;
+    top: calc(12vw - 50vh);
+    height: 110vh;
+    width: 50vw;
+    border-radius: 30vw 30vw 0 0;
+    border: solid 1px #b5b5b5;
+    opacity: 0.5;
+}
+
+.hero_image_3 {
+    position: relative;
+    background: url("../asset/hero_background_3.jpg");
+    background-size: cover;
+    background-position: center;
+    left: -3vw;
+    top: -10vw;
+    height: 20vw;
+    width: 20vw;
+    border-radius: 30vw;
     border: solid 1px #000;
+    margin-bottom: -20vw;
+}
+
+.hero_image_4 {
+    position: relative;
+    background: url("../asset/hero_background_4.jpg");
+    background-size: cover;
+    background-position: center;
+    left: 64vw;
+    top: -35vw;
+    height: 40vw;
+    width: 20vw;
+    border-radius: 30vw;
+    border: solid 1px #b2b2b2;
+    margin-bottom: -40vw;
+    z-index: -99;
+    opacity: 0.5;
 }
 
 .hero_title {
@@ -210,7 +254,7 @@ a:hover {
 
 .guest_info .name {
     display: inline-block;
-    margin: 0 15px 0 -5px;
+    margin: 0 15px 10px -5px;
     padding: 5px 20px;
     border-radius: 100px;
     border: solid 1px #000;
@@ -321,7 +365,7 @@ a:hover {
 
     .hero {
         min-height: 60vw;
-        height: 70vh;
+        height: 65vh;
     }
 
     .hero_name {
@@ -332,21 +376,45 @@ a:hover {
     }
 
     .hero_image {
-        top: 3vw;
+        top: 5vw;
         left: 3vw;
-        height: calc(70vh - 12vw);
-        width: calc(20vw + 100px);
+        height: calc(60vh - 5vw);
+        width: calc(15vw + 100px);
+    }
+
+    .hero_image_2 {
+        top: 10vh;
+        left: 40vw;
+        height: 50vh;
+        width: 57vw;
+    }
+
+    .hero_image_3 {
+        left: -5vw;
+        top: -23vh;
+        height: 25vh;
+        width: 10vh;
+        margin-bottom: -25vh;
+    }
+    
+    .hero_image_4 {
+        left: 47vw;
+        top: -45vh;
+        height: 60vh;
+        width: 40vw;
+        margin-bottom: -60vh;
     }
 
     .hero_title {
         left: 15vw;
+        max-width: 80vw;
         font-size: calc(3vw + 36px);
         line-height: calc(3vw + 36px);
     }
 
     .hero_title > span {
         font-size: calc(3vw + 10px);
-        line-height: calc(3vw + 36px);
+        line-height: calc(3vw + 12px);
     }
 
     .intro,
