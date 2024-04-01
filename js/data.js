@@ -803,19 +803,19 @@ const data = {
         ],
         "meal": "NY Strip (gluten-free)",
         "table_number": "9",
-        "group": "Kyle Croft, Nicole Pun, Sheng Cao, Simon Mo, Yi Xu, Zhekun Xiong, Zhile Xie"
+        "group": "Kyle Croft, Nicole Mo, Sheng Cao, Simon Pun, Yi Xu, Zhekun Xiong, Zhile Xie"
     },
     "nicole": {
-        "name": "Nicole Pun",
+        "name": "Nicole Mo",
         "plus": [
             [
                 "simon",
-                "Simon Mo"
+                "Simon Pun"
             ]
         ],
         "meal": "NY Strip (gluten-free)",
         "table_number": "9",
-        "group": "Kyle Croft, Nicole Pun, Sheng Cao, Simon Mo, Yi Xu, Zhekun Xiong, Zhile Xie"
+        "group": "Kyle Croft, Nicole Mo, Sheng Cao, Simon Pun, Yi Xu, Zhekun Xiong, Zhile Xie"
     },
     "caosheng": {
         "name": "Sheng Cao",
@@ -827,19 +827,19 @@ const data = {
         ],
         "meal": "Miso-baked Cod",
         "table_number": "9",
-        "group": "Kyle Croft, Nicole Pun, Sheng Cao, Simon Mo, Yi Xu, Zhekun Xiong, Zhile Xie"
+        "group": "Kyle Croft, Nicole Mo, Sheng Cao, Simon Pun, Yi Xu, Zhekun Xiong, Zhile Xie"
     },
     "simon": {
-        "name": "Simon Mo",
+        "name": "Simon Pun",
         "plus": [
             [
                 "nicole",
-                "Nicole Pun"
+                "Nicole Mo"
             ]
         ],
         "meal": "NY Strip (gluten-free)",
         "table_number": "9",
-        "group": "Kyle Croft, Nicole Pun, Sheng Cao, Simon Mo, Yi Xu, Zhekun Xiong, Zhile Xie"
+        "group": "Kyle Croft, Nicole Mo, Sheng Cao, Simon Pun, Yi Xu, Zhekun Xiong, Zhile Xie"
     },
     "xuyi": {
         "name": "Yi Xu",
@@ -851,14 +851,14 @@ const data = {
         ],
         "meal": "NY Strip (gluten-free)",
         "table_number": "9",
-        "group": "Kyle Croft, Nicole Pun, Sheng Cao, Simon Mo, Yi Xu, Zhekun Xiong, Zhile Xie"
+        "group": "Kyle Croft, Nicole Mo, Sheng Cao, Simon Pun, Yi Xu, Zhekun Xiong, Zhile Xie"
     },
     "zhekun": {
         "name": "Zhekun Xiong",
         "plus": "none",
         "meal": "NY Strip (gluten-free)",
         "table_number": "9",
-        "group": "Kyle Croft, Nicole Pun, Sheng Cao, Simon Mo, Yi Xu, Zhekun Xiong, Zhile Xie"
+        "group": "Kyle Croft, Nicole Mo, Sheng Cao, Simon Pun, Yi Xu, Zhekun Xiong, Zhile Xie"
     },
     "xiezhile": {
         "name": "Zhile Xie",
@@ -870,7 +870,7 @@ const data = {
         ],
         "meal": "Miso-baked Cod",
         "table_number": "9",
-        "group": "Kyle Croft, Nicole Pun, Sheng Cao, Simon Mo, Yi Xu, Zhekun Xiong, Zhile Xie"
+        "group": "Kyle Croft, Nicole Mo, Sheng Cao, Simon Pun, Yi Xu, Zhekun Xiong, Zhile Xie"
     }
 }
 
