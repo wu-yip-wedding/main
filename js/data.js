@@ -675,7 +675,7 @@ const data = {
         "group": "Asterios Tsiourvas, Daniel Tsai, Demircan Tas, Dimitrios Chatzinikolis, Kat Labrou, Serin Alpokay Tas , Takehiko Nagakura, Tomoko Okamura-Nagakura, Wenzhe Peng, Yu Zheng"
     },
     "serin": {
-        "name": "Serin Alpokay Tas ",
+        "name": "Serin Alpokay Tas",
         "plus": [
             [
                 "demircan",
@@ -762,12 +762,7 @@ const data = {
     },
     "sara": {
         "name": "Sara Tang",
-        "plus": [
-            [
-                "dimitrios",
-                "Dimitrios Chatzinikolis"
-            ]
-        ],
+        "plus": "none",
         "meal": "NY Strip (gluten-free)",
         "table_number": "8",
         "group": "Claire Li, Esther Tu, Jessie Qian, Sara Tang, Victor Cao"
