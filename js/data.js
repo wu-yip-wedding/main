@@ -451,10 +451,6 @@ const data = {
             [
                 "adeline",
                 "Adeline Wang"
-            ],
-            [
-                "aurora",
-                "Aurora Wang"
             ]
         ],
         "meal": "Kid's Meal",
@@ -479,10 +475,6 @@ const data = {
             [
                 "yiqi",
                 "Yiqi Zhao"
-            ],
-            [
-                "gavin",
-                "Gavin Wang"
             ],
             [
                 "adeline",
@@ -519,7 +511,11 @@ const data = {
             [
                 "adeline",
                 "Adeline Wang"
-            ]
+            ],
+            [
+                "aurora",
+                "Aurora Wang"
+            ],
         ],
         "meal": "NY Strip (gluten-free)",
         "table_number": "5",
