@@ -183,11 +183,11 @@ const data = {
         "group": "Jacqueline Kwan, Jay Wu, Joyce Wu, Kong Yu Wu, Kwok Chor Wu, Ngai Chit Wu, Tung Mui Cheung, Wincy Wu"
     },
     "haohan": {
-        "name": "Haohan\u0003Zhang",
+        "name": "Haohan Zhang",
         "plus": [
             [
                 "shaohuai",
-                "Shaohuai\u0003Zhang"
+                "Shaohuai Zhang"
             ],
             [
                 "menglin",
@@ -196,14 +196,14 @@ const data = {
         ],
         "meal": "Kid's Meal",
         "table_number": "2",
-        "group": "Haohan\u0003Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai\u0003Zhang, Waiwan Yip"
+        "group": "Haohan Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai Zhang, Waiwan Yip"
     },
     "iris": {
         "name": "Iris Yip",
         "plus": "none",
         "meal": "NY Strip (gluten-free)",
         "table_number": "2",
-        "group": "Haohan\u0003Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai\u0003Zhang, Waiwan Yip"
+        "group": "Haohan Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai Zhang, Waiwan Yip"
     },
     "tung": {
         "name": "Lap Tung",
@@ -219,33 +219,33 @@ const data = {
         ],
         "meal": "Miso-baked Cod",
         "table_number": "2",
-        "group": "Haohan\u0003Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai\u0003Zhang, Waiwan Yip"
+        "group": "Haohan Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai Zhang, Waiwan Yip"
     },
     "menglin": {
         "name": "Menglin Dong",
         "plus": [
             [
                 "shaohuai",
-                "Shaohuai\u0003Zhang"
+                "Shaohuai Zhang"
             ],
             [
                 "haohan",
-                "Haohan\u0003Zhang"
+                "Haohan Zhang"
             ]
         ],
         "meal": "Miso-baked Cod",
         "table_number": "2",
-        "group": "Haohan\u0003Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai\u0003Zhang, Waiwan Yip"
+        "group": "Haohan Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai Zhang, Waiwan Yip"
     },
     "ruyi": {
         "name": "Ruyi Yan",
         "plus": "none",
         "meal": "NY Strip (gluten-free)",
         "table_number": "2",
-        "group": "Haohan\u0003Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai\u0003Zhang, Waiwan Yip"
+        "group": "Haohan Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai Zhang, Waiwan Yip"
     },
     "shaohuai": {
-        "name": "Shaohuai\u0003Zhang",
+        "name": "Shaohuai Zhang",
         "plus": [
             [
                 "menglin",
@@ -253,12 +253,12 @@ const data = {
             ],
             [
                 "haohan",
-                "Haohan\u0003Zhang"
+                "Haohan Zhang"
             ]
         ],
         "meal": "NY Strip (gluten-free)",
         "table_number": "2",
-        "group": "Haohan\u0003Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai\u0003Zhang, Waiwan Yip"
+        "group": "Haohan Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai Zhang, Waiwan Yip"
     },
     "yip": {
         "name": "Waiwan Yip",
@@ -274,7 +274,7 @@ const data = {
         ],
         "meal": "NY Strip (gluten-free)",
         "table_number": "2",
-        "group": "Haohan\u0003Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai\u0003Zhang, Waiwan Yip"
+        "group": "Haohan Zhang, Iris Yip, Lap Tung, Menglin Dong, Ruyi Yan, Shaohuai Zhang, Waiwan Yip"
     },
     "clay": {
         "name": "Clay Lin",
@@ -657,12 +657,7 @@ const data = {
     },
     "dimitrios": {
         "name": "Dimitrios Chatzinikolis",
-        "plus": [
-            [
-                "sara",
-                "Sara Tang"
-            ]
-        ],
+        "plus": "none",
         "meal": "NY Strip (gluten-free)",
         "table_number": "7",
         "group": "Asterios Tsiourvas, Daniel Tsai, Demircan Tas, Dimitrios Chatzinikolis, Kat Labrou, Serin Alpokay Tas , Takehiko Nagakura, Tomoko Okamura-Nagakura, Wenzhe Peng, Yu Zheng"
